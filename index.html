@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/resete.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Gerador QRcode</title>
+</head>
+<body>
+    <section>
+        <div class="search">
+            <input type="text" name="" id="url" placeholder="Digite sua url aqui">
+            <span class="material-symbols-outlined" id="button">
+                search
+            </span>
+        </div>
+        <div class="box">
+            <img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://httpsencurtador.com.br/eikl4" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <h1>contato</h1>
+        <div class="contatos">
+            <div class="whatsapp contato" onclick="rede('encurtador.com.br/eikl4')"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="linkedin contato" onclick="rede('www.linkedin.com/in/nicolas-mariano-397830217/')"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="github contato" onclick="rede('github.com/nicolas00000')"><i class="fa-brands fa-github"></i></div>
+        </div>
+    </footer>
+
+
+
+<script src="src/js/script.js"></script>
+<script src="https://kit.fontawesome.com/44fc8d9d55.js" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
