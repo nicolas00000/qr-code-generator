@@ -10,27 +10,31 @@
     <title>Gerador QRcode</title>
 </head>
 <body>
-    <section>
-        <div class="search">
-            <input type="text" name="" id="url" placeholder="Digite sua url aqui">
-            <span class="material-symbols-outlined" id="button">
-                search
-            </span>
-        </div>
-        <div class="box">
-            <img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://httpsencurtador.com.br/eikl4" alt="">
-        </div>
-    </section>
+    <div class="container">
+        <section>
+            <div class="search">
+                <input type="text" name="" id="url" placeholder="Digite sua url aqui">
+                <span class="material-symbols-outlined" id="button">
+                    search
+                </span>
+            </div>
+            <div class="box">
+                <img class="qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://httpsencurtador.com.br/eikl4" alt="">
+            </div>
+        </section>
 
-    <footer>
-        <h1>contato</h1>
-        <div class="contatos">
-            <div class="whatsapp contato" onclick="rede('encurtador.com.br/eikl4')"><i class="fa-brands fa-whatsapp"></i></div>
-            <div class="linkedin contato" onclick="rede('www.linkedin.com/in/nicolas-mariano-397830217/')"><i class="fa-brands fa-linkedin-in"></i></div>
-            <div class="github contato" onclick="rede('github.com/nicolas00000')"><i class="fa-brands fa-github"></i></div>
-        </div>
-    </footer>
-
+        <br>
+        <br>
+        
+        <footer>
+            <h1>contato</h1>
+            <div class="contatos">
+                <div class="whatsapp contato" onclick="rede('encurtador.com.br/eikl4')"><i class="fa-brands fa-whatsapp"></i></div>
+                <div class="linkedin contato" onclick="rede('www.linkedin.com/in/nicolas-mariano-397830217/')"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="github contato" onclick="rede('github.com/nicolas00000')"><i class="fa-brands fa-github"></i></div>
+            </div>
+        </footer>
+    </div>
 
 
 <script src="src/js/script.js"></script>
